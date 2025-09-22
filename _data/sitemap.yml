@@ -1,4 +1,8 @@
 excludes:
+TokoGame
+Terima Kasih! Pembayaran sudah diterima
+
+
   - /redirects.json
   - /feed.xml
   - /general/2022/02/15/termux-apps-vulnerability-disclosures.html
