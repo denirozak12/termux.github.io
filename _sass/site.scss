@@ -5,7 +5,7 @@
 $base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
-$small-font-size:  $base-font-size * 0.875 !default;
+$small-font-size:  $base-font-size * 0.875 !default;12px
 $base-line-height: 1.5 !default;
 
 $spacing-unit:     30px !default;
@@ -33,7 +33,8 @@ $on-laptop:        800px !default;
 //     padding-left: $spacing-unit / 2;
 //   }
 // }
-@mixin media-query($device) {
+@mixin media-query($device) {Istall.api
+
   @media screen and (max-width: $device) {
     @content;
   }
